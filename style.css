@@ -1,0 +1,421 @@
+body, html  {
+    font-family: 'DM Serif Display', serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.header  {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.insure  {
+    font-size: 1.8rem;
+}
+
+.header-features  {
+    display: none;
+}
+
+.header-line  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 4px;
+    width: 100%;
+    height: 20px;
+    max-width: 20px;
+    margin-top: 3px;
+    opacity: 0.7;
+    margin-left: auto;
+    margin-right: 2.5pc;
+}
+
+.line  {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 2px 10px;
+    opacity: 0.9;
+}
+
+.image-intro-container  {
+    width: 100%;
+}
+
+.image-intro-box  {
+    width: 100%; 
+} 
+
+/* ===========intro-content========= */
+.intro-container  {
+    background-color: hsl(256, 26%, 20%); 
+    margin-top: -5px;
+}
+
+.pattern-left-image-desktop  {
+    display: none;
+}
+
+.image-intro-right-desktop  {
+    display: none;
+}
+
+.insurance-box-desktop  {
+    display: none;
+}
+
+.insurance-container  {
+    text-align: center;
+    color: #f5f6f5;
+    font-size: 50px;
+    padding: 0px 0px;
+    line-height: 50px;
+    margin-top: -4.4pc;
+}
+
+.insurance-box-one  {
+    color: #dde2dd;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px 20px;
+    line-height: 25px;
+}
+
+.plans  {
+    margin-top: 30px;
+    text-align: center;
+    color: #dde2dd;
+    border: 2px solid #dde2dd;
+    width: 130px;
+    justify-self: center;
+    padding: 10px;
+}
+
+.image-intro-right  {
+    display: flex;
+    justify-self: end;
+    margin-top: -3.5pc;
+}
+
+/* =======main content==== */
+.main-content  {
+    text-align: center;
+    padding-top: 9pc;
+    margin-top: -11pc;
+    background-color: #fff;
+}
+
+.horizontal-line  {
+    margin: 10px 7pc;
+    color: 10px solid rgb(253, 250, 245);
+}
+
+.we-are-different  {
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+/* ==============snappy process=== */
+.snappy-image  {
+    margin-top: 80px;
+}
+
+.snappy-box  {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.snappy-content  {
+    margin-top: 18px;
+    opacity: 0.4;
+    padding: 0px 34px;
+    line-height: 27px;
+}
+
+/* ==============affordable price=== */
+.price-image  {
+    margin-top: 80px;
+}
+
+.price-box  {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.price-content  {
+    margin-top: 18px;
+    opacity: 0.4;
+    padding: 0px 34px;
+    line-height: 27px;
+}
+
+/* ==============people first=== */
+.people-image  {
+    margin-top: 80px;
+}
+
+.people-box  {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.people-content  {
+    margin-top: 18px;
+    opacity: 0.4;
+    padding: 0px 34px;
+    line-height: 27px;
+
+}
+
+/* ===============find out more========= */
+.find-more-container  {
+    background-color:  hsl(256, 26%, 20%);
+    color: #f5f6f5;
+    text-align: center;
+    padding-top: 4pc;
+    padding-bottom: 6pc;
+    margin: 10pc 20px 20px 20px;
+    overflow: hidden;
+}
+
+.find-out  {
+    padding-top: 5pc;
+    font-size: 40px;
+    padding: 0px 20px;
+    line-height: 40px;
+}
+
+.how-we-work  {
+    margin-top: 50px;
+    border: 2px solid #f5f6f5;
+    width: 150px;
+    padding: 10px 0px;
+    justify-self: center; 
+    letter-spacing: 2px;
+}
+
+.intro-right-mobile  {
+    display: flex;
+    justify-self: end;
+    margin-top: -23pc;
+    width: 170px;
+    height: 350px;
+}
+
+.footer  {
+    margin-top: 13pc;
+    padding-bottom: 30px;
+}
+
+.insure-and-images  {
+    margin-top: -7pc;
+}
+
+.footer-insure  {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.footer-images  {
+    margin-top: 25px;
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+}
+
+.footer-info  {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.straight-line  {
+    margin: 0px 30px;
+}
+
+/* ==========our company */
+.our-company-box  {
+    margin-top: 35px;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.about-box  {
+    margin-top: 30px;
+}
+
+.how,
+.why,
+.check,
+.reviews  {
+    margin-top: 8px;
+}
+
+/* ==========help me========= */
+.help-me-box  {
+    margin-top: 35px;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.about-box-2  {
+    margin-top: 30px;
+}
+
+.faq,
+.terms,
+.privacy,
+.cookies  {
+    margin-top: 8px;
+}
+
+/* ==========contact========= */
+.contact-box  {
+    margin-top: 35px;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.about-box-3  {
+    margin-top: 30px;
+}
+
+.sales,
+.support,
+.live-charts 
+ {
+    margin-top: 8px;
+}
+
+/* ==========others========= */
+.others-box  {
+    margin-top: 35px;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.about-box-4  {
+    margin-top: 30px;
+}
+
+.careers,
+.press,
+.licenses {
+    margin-top: 8px;
+}
+
+
+@media only screen and ( min-width: 1024px)  {
+    .header-line  {
+        display: none;
+    }
+
+    .header {
+        border: 2px solid blue;
+        display: flex;
+        width: 100%;
+        padding: 20px 5pc;
+    }
+
+    .header-features  {
+        display: flex;
+        /* font-size: 1.5rem; */
+        margin-top: 12px;
+        margin-left: 17pc;
+        gap: 20px;
+        letter-spacing: 2px;
+    }
+
+    .insure  {
+        font-size: 2.5rem;
+    } 
+
+    .view-plans  {
+        border: 2px solid #000;
+        padding: 15px;
+        margin-top: -15px;
+    }
+
+    .overall-intro  {
+        /* display: flex; */
+    }
+
+    .image-intro-container  {
+        display: none;
+    }
+
+    .pattern-left-image  {
+        display: none;
+    }
+
+    .pattern-left-image-desktop  {
+        display: flex;
+    }
+
+    .image-intro-right-desktop  {
+        display: flex;
+    }
+
+    .image-intro-right  {
+        display: none;
+    }
+
+    .intro-container  {
+        background-color: hsl(256, 26%, 20%); 
+        margin-top: -5px;
+        text-align: start;
+        padding-left: 0pc;
+        padding-top: 10pc;
+        padding-bottom: 16pc;
+    }
+    
+    .insurance-container  {
+        text-align: start;
+        color: #f5f6f5;
+        font-size: 50px;
+        margin-right: 38pc;
+        line-height: 4pc;
+        margin-top: -4.4pc;
+        padding-left: 4pc;
+    }
+
+    .insurance-content {
+        text-align: start; 
+        justify-self: start;
+        color: #dde2dd;
+        margin-top: 20px;
+        text-align: start;
+        margin-right: 27pc;
+        line-height: 25px;
+        padding-left: 4pc;
+    }
+    
+    .insurance-box-one  {
+        display: none;
+    }
+
+    .insurance-box-desktop  {
+        display: flex;
+    }
+    
+    .plans  {
+        margin-top: 30px;
+        justify-self: start;
+        padding: 10px;
+        margin-left: 4pc;
+    }
+
+    .pattern-left-image-desktop  {
+        margin-top: -15pc;
+    }
+
+    .image-intro-right-desktop  {
+        margin-left: auto;
+        margin-top: -56pc;
+    }
+}
