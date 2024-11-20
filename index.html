@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+   
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css" />
@@ -12,16 +12,12 @@
 
   <title>Frontend Mentor | Insure landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
       font-size: 11px;
       text-align: center;
     }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
 
     body {
       font-family: 'DM Serif Display', serif;
@@ -62,6 +58,7 @@
 
 
       <div class="insurance-container">
+        <hr class="desktop-horizontal-line">
         Humanizing your insurance.
       </div>
       <div class="insurance-content">
@@ -77,23 +74,29 @@
         <div class="insurance-box-desktop">
           Get your life insurance coverage easier and faster. We blend our expertise
           and
-            technology to help you find the plan that’s right for you. Ensure you
-            and your loved ones are protected.
-          </div>
-        </div>
-        <div class="plans">
-          View plans
+          technology to help you find the plan that’s right for you. Ensure you
+          and your loved ones are protected.
         </div>
       </div>
-      <img class="pattern-left-image-desktop" src="images/bg-pattern-intro-left-desktop.svg"
-        alt="this is a pattern-intro-image" />
-      <img class="image-intro-right" src="images/bg-pattern-intro-right-mobile.svg"
-        alt="this is a pattern-intro-right-mobilie-image"  />
-
-      <img class="image-intro-right-desktop" src="images/bg-pattern-intro-right-desktop.svg"
-        alt="this is a pattern-intro-image" />
+      <div class="plans">
+        View plans
+      </div>
     </div>
+
+    <img class="image-intro-right" src="images/bg-pattern-intro-right-mobile.svg"
+      alt="this is a pattern-intro-right-mobilie-image" />
+
+    <img class="image-intro-right-desktop" src="images/bg-pattern-intro-right-desktop.svg"
+      alt="this is a pattern-intro-image" />
+
   </div>
+
+  <img class="image-intro-desktop" src="images/image-intro-desktop.jpg" alt="this is an image intro for desktop" />
+
+
+  <img class="pattern-left-image-desktop" src="images/bg-pattern-intro-left-desktop.svg"
+    alt="this is a pattern-intro-image" />
+
 
   <!-- =========main-content===== -->
   <div class="main-content">
@@ -102,113 +105,143 @@
       We’re different
     </div>
 
-    <!-- =======snappy process====== -->
-    <img class="snappy-image" src="images/icon-snappy-process.svg" alt="this is a snappy-process icon" />
-    <div class="snappy-box">
-      Snappy Process
-    </div>
-    <div class="snappy-content">
-      Our application process can be completed in minutes, not hours. Don’t get
-      stuck filling in tedious forms.
-    </div>
-
-    <!-- =======affordable price====== -->
-    <img class="price-image" src="images/icon-affordable-prices.svg" alt="this is a affordable-prices icon" />
-    <div class="price-box">
-      Affordable Prices
-    </div>
-    <div class="price-content">
-      We don’t want you worrying about high monthly costs. Our prices may be low,
-      but we still offer the best coverage possible.
-    </div>
-
-    <!-- =======people first====== -->
-    <img class="people-image" src="images/icon-people-first.svg" alt="this is a people-first icon" />
-    <div class="people-box">
-      People First
-    </div>
-    <div class="people-content">
-      Our plans aren’t full of conditions and clauses to prevent payouts. We make
-      sure you’re covered when you need it.
-    </div>
-  </div>
-
-  <!-- ===========find out more===== -->
-  <div class="find-more-container">
-    <div class="find-out">
-      Find out more about how we work
-    </div>
-    <div class="how-we-work">
-      HOW WE WORK
-    </div>
-    <img class="intro-right-mobile" src="images/bg-pattern-intro-right-mobile.svg"
-      alt="this is a pattern-intro-image" />
-  </div>
-
-  <div class="footer">
-    <img class="image-pattern-image" src="images/bg-pattern-footer-mobile.svg" alt="this is a pattern footer image" />
-    <div class="insure-and-images">
-      <div class="footer-insure">
-        INSURE
+    <div class="contents">
+      <!-- =======snappy process====== -->
+      <div>
+        <img class="snappy-image" src="images/icon-snappy-process.svg" alt="this is a snappy-process icon" />
+        <div class="snappy-box">
+          Snappy Process
+        </div>
+        <div class="snappy-content">
+          Our application process can be completed in minutes, not hours. Don’t get
+          stuck filling in tedious forms.
+        </div>
       </div>
-      <div class="footer-images">
-        <img src="images/icon-facebook.svg" />
-        <img src="images/icon-twitter.svg" />
-        <img src="images/icon-pinterest.svg" />
-        <img src="images/icon-instagram.svg" />
+
+      <!-- =======affordable price====== -->
+      <div>
+        <img class="price-image" src="images/icon-affordable-prices.svg" alt="this is a affordable-prices icon" />
+        <div class="price-box">
+          Affordable Prices
+        </div>
+        <div class="price-content">
+          We don’t want you worrying about high monthly costs. Our prices may be low,
+          but we still offer the best coverage possible.
+        </div>
+      </div>
+
+      <!-- =======people first====== -->
+      <div>
+        <img class="people-image" src="images/icon-people-first.svg" alt="this is a people-first icon" />
+        <div class="people-box">
+          People First
+        </div>
+        <div class="people-content">
+          Our plans aren’t full of conditions and clauses to prevent payouts. We make
+          sure you’re covered when you need it.
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="footer-info">
-    <hr class="straight-line">
-    <!-- =======our company -->
-    <div class="our-company-box">
-      OUR COMPANY
+    <!-- ===========find out more===== -->
+    <div class="overall-find-more-container">
+      <div class="find-more-container">
+        <div class="find-out">
+          Find out more about how we work
+        </div>
+        <div class="work-and-image-box">
+          <div class="how-we-work">
+            HOW WE WORK
+          </div>
+
+          <img class="intro-right-mobile" src="images/bg-pattern-intro-right-mobile.svg"
+            alt="this is a pattern-intro-image" />
+
+        </div>
+        <img class="intro-right-desktop" src="images/bg-pattern-intro-right-desktop.svg"
+          alt="this is a pattern-intro-image" />
+      </div>
+    </div>
     </div>
 
-    <div class="about-box">
-      <div class="how">HOW WE WORK</div>
-      <div class="why">WHY INSURE?</div>
-      <div class="check">CHECK PRICE</div>
-      <div class="reviews">REVIEWS</div>
-    </div>
+    
+    <img class="image-pattern-desktop" src="images/bg-pattern-footer-desktop.svg"
+    alt="this is a pattern footer image" />
+    <div class="overall-footer">
+      <div class="footer">
+      <img class="image-pattern-image" src="images/bg-pattern-footer-mobile.svg"
+      alt="this is a pattern footer image" />
+        <div class="insure-and-images">
+          <div class="footer-insure">
+            INSURE
+          </div>
+          <div class="footer-images">
+            <img src="images/icon-facebook.svg" />
+            <img src="images/icon-twitter.svg" />
+            <img src="images/icon-pinterest.svg" />
+            <img src="images/icon-instagram.svg" />
+          </div>
+        </div>
+      </div>
 
-    <!-- ========help me -->
-    <div class="our-company-box">
-      HELP ME
-    </div>
+      <hr class="straight-line">
+      <div class="footer-info">
+        <!-- =======our company -->
+        <div>
+          <div class="our-company-box">
+            OUR COMPANY
+          </div>
 
-    <div class="about-box-2">
-      <div class="faq">FAQ</div>
-      <div class="terms">TERMS OF USE</div>
-      <div class="privacy">PRIVACY POLICY</div>
-      <div class="cookies">COOKIES</div>
-    </div>
+          <div class="about-box">
+            <div class="how">HOW WE WORK</div>
+            <div class="why">WHY INSURE?</div>
+            <div class="check">CHECK PRICE</div>
+            <div class="reviews">REVIEWS</div>
+          </div>
+        </div>
 
-    <!-- ======contact===== -->
-    <div class="contact-box">
-      CONTACT
-    </div>
+        <!-- ========help me -->
+        <div>
+          <div class="our-company-box">
+            HELP ME
+          </div>
 
-    <div class="about-box-3">
-      <div class="sales">SALES</div>
-      <div class="support">SUPPORT</div>
-      <div class="live-chat">LIVE CHAT</div>
-    </div>
+          <div class="about-box-2">
+            <div class="faq">FAQ</div>
+            <div class="terms">TERMS OF USE</div>
+            <div class="privacy">PRIVACY POLICY</div>
+            <div class="cookies">COOKIES</div>
+          </div>
+        </div>
 
-    <!-- =======others====== -->
-    <div class="others-box">
-      OTHERS
-    </div>
+        <!-- ======contact===== -->
+        <div>
+          <div class="contact-box">
+            CONTACT
+          </div>
 
-    <div class="about-box-4">
-      <div class="careers">CAREERS</div>
-      <div class="press">PRESS</div>
-      <div class="licenses">LICENSES</div>
+          <div class="about-box-3">
+            <div class="sales">SALES</div>
+            <div class="support">SUPPORT</div>
+            <div class="live-chat">LIVE CHAT</div>
+          </div>
+        </div>
 
+        <!-- =======others====== -->
+        <div>
+          <div class="others-box">
+            OTHERS
+          </div>
+
+          <div class="about-box-4">
+            <div class="careers">CAREERS</div>
+            <div class="press">PRESS</div>
+            <div class="licenses">LICENSES</div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  
 </body>
 
 </html>
